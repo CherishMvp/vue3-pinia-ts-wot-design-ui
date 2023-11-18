@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+  },
+  "stylelint.validate": ["css", "scss", "vue", "html"],
+  "eslint.validate": ["typescript", "vue", "html", "json"],
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "allowJs": true,
+        "outDir": "./dist",
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+
+        "lib": ["esnext", "dom"],
+        "types": ["@dcloudio/types", "miniprogram-api-typings", "@uni-helper/uni-ui-types", "@ttou/uview-typings/v3", "@ttou/uview-typings/refs"]
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": ["src/*.vue", "src/**/*.vue", "src/**/**/*.vue", "src/**/**/**/*.vue", "src/**/*.js", "src/**/**/*.js", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "./auto-imports.d.ts"]
+}
